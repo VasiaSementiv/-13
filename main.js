@@ -68,3 +68,9 @@ const account = {
     return sum;
   },
 };
+
+
+account.deposit(100);
+account.withdraw(20);
+
+console.log(account.getBalance());
